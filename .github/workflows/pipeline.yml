@@ -27,7 +27,7 @@ jobs:
       run: npm install
     - name: Running tests
       run: npm run test:unit
-    - name: Printing SoftUni Username
+    - name: Printing SoftUni Username In Console
       run: echo "softuni-stoqn178"
   deploy:
     runs-on: ubuntu-latest
