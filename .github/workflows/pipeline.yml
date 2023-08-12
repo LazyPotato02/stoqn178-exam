@@ -30,7 +30,7 @@ jobs:
     - name: Printing SoftUni Username
       run: echo "softuni-stoqn178"
     
-    - name: Deploy to production
+    - name: Deploy to render production
       uses: johnbeynon/render-deploy-action@v0.0.8
       with:
         service-id: ${{ secrets.MY_RENDER_SERVICE_ID }}
